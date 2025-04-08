@@ -22,4 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index, name='index'),
     path('tilly/parsing/', views.upload_csv, name='upload_csv'),
+    path('tilly/xml/', views.xml_parsing, name='xml_parsing'),
 ]
